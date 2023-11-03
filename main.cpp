@@ -8,11 +8,11 @@ int main()
     HANDLE hnd = GetStdHandle(STD_OUTPUT_HANDLE);
     float A[10][10], B[10][10];
     int i, j, n;
-
-    // Ввод исходных данных
+ya sosu clen
+    // Г‚ГўГ®Г¤ ГЁГ±ГµГ®Г¤Г­Г»Гµ Г¤Г Г­Г­Г»Гµ
     cout << "Input the size of the matrix n" << endl;
     cin >> n;
-    cout << "Input matrix А" << endl;
+    cout << "Input matrix ГЂ" << endl;
     for (i = 0; i < n; i++)
     {
         for (j = 0; j < n; j++)
@@ -24,7 +24,7 @@ int main()
         }
     }
 
-    // Обработка данных
+    // ГЋГЎГ°Г ГЎГ®ГІГЄГ  Г¤Г Г­Г­Г»Гµ
     for (i = 0; i < n; i++)
     {
         for (j = 0; j < n; j++)
@@ -41,7 +41,7 @@ int main()
         }
     }
 
-    // Вывод результата
+    // Г‚Г»ГўГ®Г¤ Г°ГҐГ§ГіГ«ГјГІГ ГІГ 
     cout << "Matrix B" << endl;
     for (i = 0; i < n; i++)
     {
